@@ -1,0 +1,18 @@
+<div class="text-center mb-5" id="header">
+  <h2>IMAGE RELOAD</h2>
+  <hr>
+  <button class="btn btn-info" (click)="setImage()">REFRESH IMAGE</button>
+</div>
+<p class="text-center mt-3">Go over <i class="fa fa-arrow-circle-down fa-3x" aria-hidden="true"></i> the image</p>
+<div *ngIf="selectedImage" class="col-lg-12 color">
+    <div class="card text-center">
+      <div class="card-title">
+          <h4><span>TITLE:</span><br>>{{selectedImage.img.title}}</h4>
+        <img src="{{selectedImage.img.media.m}}" class="img-fluid " alt="">
+      </div>
+      <div class="card-block">
+        <p class="card-text"><span>DESCRIPTION:</span><br>{{selectedImage.img.description}}</p>
+        <p class="card-footer"><span>DATE TAKEN:</span><br>{{selectedImage.img.date_taken}}</p>
+      </div>
+    </div>
+  </div>

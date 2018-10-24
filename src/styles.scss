@@ -1,0 +1,81 @@
+@import "~bootstrap/scss/bootstrap.scss";
+$fa-font-path: '../node_modules/font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  a {
+      color: #fff;
+      &:hover {
+          color: #b9b9b9;
+          text-decoration: none;
+      }
+  }
+  .extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .navbar {
+    background-color: #3b3b3f;
+  }
+  
+  footer.page-footer {
+    background-color: #3b3b3f;
+    color: #bebebe;
+    margin-top: 2rem;
+  }
+  .footer-copyright {
+      text-align: center;
+  }
+//******* jumbotron style **************/
+
+.jumbotron img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    max-height: 30%;
+}
+.jumbotron h4 {
+   text-align: center;
+}
+.jumbotron p {
+    text-align: justify;
+    padding: 2%;
+ }
+.card .card-title span {
+    color: #0e83a0;
+    font-weight: bold;
+ }
+ .card .card-block p span {
+    color: #0e83a0;
+ }
+ #header p {
+     text-transform: uppercase;
+ }
+ .fa {
+     color: #0e83a0;
+ }
+.color img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+    
+.color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+//**************************//
+.page-footer .title {
+    color: #0e83a0;
+}
+
+
+
+  
