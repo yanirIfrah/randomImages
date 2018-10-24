@@ -1,5 +1,5 @@
 # RandomImages
-
+This project is about to show Flicke random image at the center of the screen.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
 ## Development server
